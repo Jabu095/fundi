@@ -1,0 +1,35 @@
+
+<form class="page-login">
+
+  <md-card>
+    <md-card-content>
+      <div class="row">
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Username" >
+          </md-input-container>
+        </div>
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Password" type="password" >
+          </md-input-container>
+        </div>
+      </div>
+
+      <a routerLink="/forgot_password">Forgot password</a>
+      <div class="spacer"></div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="facebook()">Facebook</button>
+      </div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="twitter()">Twitter</button>
+      </div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="google()">Google</button>
+      </div>
+
+     <button  md-raised-button class="btn-boarder" (click)="login()">Login</button>
+    </md-card-content>
+    <a routerLink="/register">I don't have an account</a>
+  </md-card>
+</form>

@@ -1,0 +1,49 @@
+<form class="page-register">
+  <div class="hero ">
+    <div class="bg-color">
+
+    </div>
+
+  </div>
+  <md-card>
+    <md-card-content>
+      <div class="row">
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Username" >
+          </md-input-container>
+        </div>
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Email" type="email" >
+          </md-input-container>
+        </div>
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Password" type="password" >
+          </md-input-container>
+        </div>
+        <div class="col-md-12">
+          <md-input-container>
+            <input mdInput placeholder="Confirm Password" type="password" >
+          </md-input-container>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <p>Or sign up using your social media account</p>
+      </div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="facebook()">Facebook</button>
+      </div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="twitter()">Twitter</button>
+      </div>
+      <div class="col-xs-12">
+        <button md-raised-button color="primary" (click)="google()">Google</button>
+      </div>
+
+      <button  md-raised-button (click)="login()" class="btn-boarder">Register</button>
+    </md-card-content>
+    <a routerLink="/login">I have an account</a>
+  </md-card>
+</form>

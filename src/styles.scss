@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/core/theming/prebuilt/indigo-pink.css";
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  color: black;
+}
+
+md-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+md-toolbar-row {
+  justify-content: space-between;
+}
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+.btn-boarder{
+  border: 1px solid blue;
+  background-color: #ffffff;
+}
+
+.spacer{
+  height: 15px;
+}
+.tracker-content{
+  color: #ffffff;
+  background-color: black;
+  padding: 2px;
+  padding-left: 80px;
+}
+.hero{
+  background-image: url("assets/image/blog-pic-091.jpg");
+  height: 280px;
+}
+.bg-color{
+  background-color: black;
+  opacity: 0.7;
+  height: 280px;
+  width: 100%;
+}
